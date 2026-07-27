@@ -1,0 +1,11 @@
+/* Site-specific CSS custom properties */
+:root {
+    --color-accent: #000000;
+    --color-accent-rgb: rgba(0, 0, 0, 0.3);
+    --color-bg-dark: #1a1a1a;
+    --color-bg-dark-rgb: rgba(26, 26, 26, 0.3);
+    --color-text-light: #ffffff;
+    --color-text-muted: #888888;
+    --color-border-subtle: rgba(255, 255, 255, 0.1);
+    --color-bg-hover: rgba(255, 255, 255, 0.05);
+}

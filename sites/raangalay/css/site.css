@@ -1,0 +1,41 @@
+/* ========================================
+   Raangalay — Brand-Specific Theme Overrides
+   Defines CSS custom properties consumed by
+   the shared animations.css engine.
+   ======================================== */
+
+:root {
+    /* === Brand Colors === */
+    --color-primary: #771A09;
+    --color-accent: #771A09;
+    --color-accent-hover: #8f2010;
+    --color-accent-light: #a83a1f;
+    --color-accent-dark: #5a1207;
+    --color-danger: #F44336;
+
+    /* Accent color with alpha variants */
+    --color-accent-rgb-20: rgba(119, 26, 9, 0.2);
+    --color-accent-rgb-30: rgba(119, 26, 9, 0.3);
+    --color-accent-rgb-40: rgba(119, 26, 9, 0.4);
+
+    /* === Background Colors === */
+    --color-bg-dark: #242424;
+    --color-bg-secondary: #FFFFFF;
+    --color-card-bg: #FFFFFF;
+    --color-card-border: rgba(0, 0, 0, 0.08);
+
+    /* === Text Colors === */
+    --color-text: #202020;
+    --color-text-muted: rgba(32, 32, 32, 0.5);
+
+    /* === Scrollbar === */
+    --scrollbar-track: #F9F9F9;
+
+    /* === Fonts === */
+    --font-heading: 'Jost', sans-serif;
+    --font-body: 'Jost', sans-serif;
+}
+
+/* Raangalay-specific overrides */
+/* Light theme — most styling handled by Tailwind theme config */
+/* Minimal custom CSS needed; animations.css provides shared mechanics */
